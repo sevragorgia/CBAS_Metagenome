@@ -1,0 +1,14 @@
+
+=== Error correction and assembling warnings:
+ * 0:01:12.821   272M / 9G    WARN    General                 (kmer_coverage_model.cpp   : 343)   Valley value was estimated improperly, reset to 3
+ * 0:01:04.561   268M / 9G    WARN    General                 (kmer_coverage_model.cpp   : 343)   Valley value was estimated improperly, reset to 5
+ * 0:01:06.650   264M / 9G    WARN    General                 (kmer_coverage_model.cpp   : 343)   Valley value was estimated improperly, reset to 4
+ * 0:01:13.552     1G / 9G    WARN    General                 (kmer_coverage_model.cpp   : 382)   Failed to determine erroneous kmer threshold. Threshold set to: 5
+ * 0:01:23.299     1G / 9G    WARN    General                 (kmer_coverage_model.cpp   : 343)   Valley value was estimated improperly, reset to 27
+ * 0:01:23.303     1G / 9G    WARN    General                 (kmer_coverage_model.cpp   : 382)   Failed to determine erroneous kmer threshold. Threshold set to: 27
+ * 0:01:02.880     1G / 9G    WARN    General                 (kmer_coverage_model.cpp   : 382)   Failed to determine erroneous kmer threshold. Threshold set to: 54
+ * 0:01:36.932   232M / 9G    WARN    General                 (simplification.cpp        : 530)   The determined erroneous connection coverage threshold may be determined improperly
+ * 0:00:54.441     1G / 9G    WARN    General                 (kmer_coverage_model.cpp   : 382)   Failed to determine erroneous kmer threshold. Threshold set to: 42
+ * 0:00:52.436     1G / 9G    WARN    General                 (kmer_coverage_model.cpp   : 382)   Failed to determine erroneous kmer threshold. Threshold set to: 13
+ * 0:00:36.571   884M / 9G    WARN    General                 (kmer_coverage_model.cpp   : 382)   Failed to determine erroneous kmer threshold. Threshold set to: 19
+======= Warnings saved to /mnt/localspace/s.vargas/Data/Genomic_Datasets/Collospongia_auris/Metagenome/k31.a180.b200.s60.w75/SPAdes_Assembly/warnings.log
