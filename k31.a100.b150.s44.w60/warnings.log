@@ -1,0 +1,10 @@
+
+=== Error correction and assembling warnings:
+ * 0:04:31.384   264M / 9G    WARN    General                 (simplification.cpp        : 530)   The determined erroneous connection coverage threshold may be determined improperly
+ * 0:04:19.783     3G / 9G    WARN    General                 (kmer_coverage_model.cpp   : 382)   Failed to determine erroneous kmer threshold. Threshold set to: 42
+ * 0:04:32.818     3G / 9G    WARN    General                 (kmer_coverage_model.cpp   : 382)   Failed to determine erroneous kmer threshold. Threshold set to: 38
+ * 0:04:02.753     3G / 9G    WARN    General                 (kmer_coverage_model.cpp   : 382)   Failed to determine erroneous kmer threshold. Threshold set to: 30
+ * 0:01:48.988     2G / 9G    WARN    General                 (kmer_coverage_model.cpp   : 217)   Too many erroneous kmers, the estimates might be unreliable
+ * 0:01:49.293     2G / 9G    WARN    General                 (kmer_coverage_model.cpp   : 343)   Valley value was estimated improperly, reset to 3
+ * 0:01:49.293     2G / 9G    WARN    General                 (kmer_coverage_model.cpp   : 382)   Failed to determine erroneous kmer threshold. Threshold set to: 3
+======= Warnings saved to /mnt/localspace/s.vargas/Data/Genomic_Datasets/Collospongia_auris/Metagenome/k31.a100.b150.s44.w60/SPAdes_Assembly/warnings.log
