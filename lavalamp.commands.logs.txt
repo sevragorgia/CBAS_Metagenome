@@ -1,0 +1,239 @@
+python ~/Repos/lavaLampPlot/kmersorter.py -T -p 6 -k 31 -a 180 -b 200 -s 0.48 -w 0.60 -D ~/Repos/lavaLampPlot/trinityrnaseq-2.0.4/ -1 ./Read1.fastq -2 ./Read2.fastq fastq_filtered.dumps 
+
+python ~/Repos/lavaLampPlot/kmersorter.py -T -p 6 -k 31 -a 100 -b 150 -s 0.35 -w 0.48 -D ~/Repos/lavaLampPlot/trinityrnaseq-2.0.4/ -1 ./Read1.fastq -2 ./Read2.fastq fastq_filtered.dumps 
+
+python ~/Repos/lavaLampPlot/kmersorter.py -T -p 6 -k 31 -a 50 -b 100 -s 0.5 -w 0.62 -D ~/Repos/lavaLampPlot/trinityrnaseq-2.0.4/ -1 ./Read1.fastq -2 ./Read2.fastq fastq_filtered.dumps 
+
+python ~/Repos/lavaLampPlot/kmersorter.py -T -p 6 -k 31 -a 150 -b 180 -s 0.62 -w 0.66 -D ~/Repos/lavaLampPlot/trinityrnaseq-2.0.4/ -1 ./Read1.fastq -2 ./Read2.fastq fastq_filtered.dumps 
+
+python ~/Repos/lavaLampPlot/kmersorter.py -T -p 6 -k 31 -a 15 -b 40 -s 0.62 -w 0.66 -D ~/Repos/lavaLampPlot/trinityrnaseq-2.0.4/ -1 ./Read1.fastq -2 ./Read2.fastq fastq_filtered.dumps 
+
+python ~/Repos/lavaLampPlot/kmersorter.py -T -p 6 -k 31 -a 400 -b 600 -s 0.50 -w 0.70 -D ~/Repos/lavaLampPlot/trinityrnaseq-2.0.4/ -1 ./Read1.fastq -2 ./Read2.fastq fastq_filtered.dumps 
+
+******************************************************************************************************************************************************************************************************************
+******************************************************************************************************************************************************************************************************************
+
+s.vargas@wla175:/mnt/localspace/s.vargas/Data/Genomic_Datasets/Collospongia_auris/Metagenome$ python ~/Repos/lavaLampPlot/kmersorter.py -T -p 6 -k 31 -a 180 -b 200 -s 0.48 -w 0.60 -D ~/Repos/lavaLampPlot/trinityrnaseq-2.0.4/ -1 ./Read1.fastq -2 ./Read2.fastq fastq_filtered.dumps 
+### Running Trinity type read sorting Thu Dec 15 15:34:11 2016
+# Using Trinity directory /home/s.vargas/Repos/lavaLampPlot/trinityrnaseq-2.0.4/ Thu Dec 15 15:34:11 2016
+### Checking for sub programs Thu Dec 15 15:34:11 2016
+# /home/s.vargas/Repos/lavaLampPlot/trinityrnaseq-2.0.4/trinity-plugins/fastool/fastool found... OK
+# /home/s.vargas/Repos/lavaLampPlot/trinityrnaseq-2.0.4/Inchworm/bin/fastaToKmerCoverageStats found... OK
+### Checking input files Thu Dec 15 15:34:11 2016
+# Reads found... OK
+# Detected read length of 125... OK
+# Detected seq type fastq... OK
+### Converting reads to fasta Thu Dec 15 15:34:11 2016
+### Converting reads to fasta Thu Dec 15 15:34:11 2016
+# Reads already converted, skipping... Thu Dec 15 15:34:11 2016
+### Converting reads to fasta Thu Dec 15 15:34:11 2016
+# Reads already converted, skipping... Thu Dec 15 15:34:11 2016
+### Generating coverage stats Thu Dec 15 15:34:11 2016
+# Coverage already counted for ./Read1.fasta, skipping... Thu Dec 15 15:34:11 2016
+# Coverage already counted for ./Read2.fasta, skipping... Thu Dec 15 15:34:11 2016
+### Sorting reads by coverage and/or GC Thu Dec 15 15:34:11 2016
+# Filtering coverage between 180 and 200 Thu Dec 15 15:34:11 2016
+# Filtering GC between 60 and 75 Thu Dec 15 15:34:11 2016
+### Retrieving reads Thu Dec 15 15:34:11 2016
+# Reading stats file ./Read1.fasta.k31.stats Thu Dec 15 15:34:11 2016
+Read 54671933 stats and 1146061 pass coverage Thu Dec 15 15:34:44 2016
+# Reading stats file ./Read2.fasta.k31.stats Thu Dec 15 15:34:44 2016
+Read 54671933 stats and 1006235 pass coverage Thu Dec 15 15:35:18 2016
+Stats contain 1146061 and 1006235 accessions Thu Dec 15 15:35:18 2016
+Counted 218687732 and wrote 4286364 lines Thu Dec 15 15:38:42 2016
+Counted 54671933 sequence pairs Thu Dec 15 15:38:42 2016
+Kept 1071591 read pairs Thu Dec 15 15:38:42 2016
+# Process finished Thu Dec 15 15:38:42 2016
+
+s.vargas@wla175:/mnt/localspace/s.vargas/Data/Genomic_Datasets/Collospongia_auris/Metagenome$ python ~/Repos/lavaLampPlot/kmersorter.py -T -p 6 -k 31 -a 180 -b 200 -s 0.48 -w 0.60 -D ~/Repos/lavaLampPlot/trinityrnaseq-2.0.4/ -1 ./Read1.fastq -2 ./Read2.fastq fastq_filtered.dumps 
+### Running Trinity type read sorting Thu Dec 15 15:59:44 2016                                                                                                                                                        
+# Using Trinity directory /home/s.vargas/Repos/lavaLampPlot/trinityrnaseq-2.0.4/ Thu Dec 15 15:59:44 2016                                                                                                               
+### Checking for sub programs Thu Dec 15 15:59:44 2016                                                                                                                                                                    
+# /home/s.vargas/Repos/lavaLampPlot/trinityrnaseq-2.0.4/trinity-plugins/fastool/fastool found... OK
+# /home/s.vargas/Repos/lavaLampPlot/trinityrnaseq-2.0.4/Inchworm/bin/fastaToKmerCoverageStats found... OK
+### Checking input files Thu Dec 15 15:59:44 2016
+# Reads found... OK
+# Detected read length of 125... OK
+# Detected seq type fastq... OK
+### Converting reads to fasta Thu Dec 15 15:59:44 2016
+### Converting reads to fasta Thu Dec 15 15:59:44 2016
+# Reads already converted, skipping... Thu Dec 15 15:59:44 2016
+### Converting reads to fasta Thu Dec 15 15:59:44 2016
+# Reads already converted, skipping... Thu Dec 15 15:59:44 2016
+### Generating coverage stats Thu Dec 15 15:59:44 2016
+# Coverage already counted for ./Read1.fasta, skipping... Thu Dec 15 15:59:44 2016
+# Coverage already counted for ./Read2.fasta, skipping... Thu Dec 15 15:59:44 2016
+### Sorting reads by coverage and/or GC Thu Dec 15 15:59:44 2016
+# Filtering coverage between 180 and 200 Thu Dec 15 15:59:44 2016
+# Filtering GC between 60 and 75 Thu Dec 15 15:59:44 2016
+### Retrieving reads Thu Dec 15 15:59:44 2016
+# Reading stats file ./Read1.fasta.k31.stats Thu Dec 15 15:59:44 2016
+Read 54671933 stats and 1146061 pass coverage Thu Dec 15 16:00:17 2016
+# Reading stats file ./Read2.fasta.k31.stats Thu Dec 15 16:00:17 2016
+Read 54671933 stats and 1006235 pass coverage Thu Dec 15 16:00:50 2016
+Stats contain 1146061 and 1006235 accessions Thu Dec 15 16:00:50 2016
+Counted 218687732 and wrote 4286364 lines Thu Dec 15 16:04:14 2016
+Counted 54671933 sequence pairs Thu Dec 15 16:04:14 2016
+Kept 1071591 read pairs Thu Dec 15 16:04:14 2016
+# Process finished Thu Dec 15 16:04:14 2016
+
+s.vargas@wla175:/mnt/localspace/s.vargas/Data/Genomic_Datasets/Collospongia_auris/Metagenome$ python ~/Repos/lavaLampPlot/kmersorter.py -T -p 6 -k 31 -a 100 -b 150 -s 0.35 -w 0.48 -D ~/Repos/lavaLampPlot/trinityrnaseq-2.0.4/ -1 ./Read1.fastq -2 ./Read2.fastq fastq_filtered.dumps         
+### Running Trinity type read sorting Thu Dec 15 16:05:40 2016
+# Using Trinity directory /home/s.vargas/Repos/lavaLampPlot/trinityrnaseq-2.0.4/ Thu Dec 15 16:05:40 2016
+### Checking for sub programs Thu Dec 15 16:05:40 2016
+# /home/s.vargas/Repos/lavaLampPlot/trinityrnaseq-2.0.4/trinity-plugins/fastool/fastool found... OK
+# /home/s.vargas/Repos/lavaLampPlot/trinityrnaseq-2.0.4/Inchworm/bin/fastaToKmerCoverageStats found... OK
+### Checking input files Thu Dec 15 16:05:40 2016
+# Reads found... OK
+# Detected read length of 125... OK
+# Detected seq type fastq... OK
+### Converting reads to fasta Thu Dec 15 16:05:40 2016
+### Converting reads to fasta Thu Dec 15 16:05:40 2016
+# Reads already converted, skipping... Thu Dec 15 16:05:40 2016
+### Converting reads to fasta Thu Dec 15 16:05:40 2016
+# Reads already converted, skipping... Thu Dec 15 16:05:40 2016
+### Generating coverage stats Thu Dec 15 16:05:40 2016
+# Coverage already counted for ./Read1.fasta, skipping... Thu Dec 15 16:05:40 2016
+# Coverage already counted for ./Read2.fasta, skipping... Thu Dec 15 16:05:40 2016
+### Sorting reads by coverage and/or GC Thu Dec 15 16:05:40 2016
+# Filtering coverage between 100 and 150 Thu Dec 15 16:05:40 2016
+# Filtering GC between 44 and 60 Thu Dec 15 16:05:40 2016
+### Retrieving reads Thu Dec 15 16:05:40 2016
+# Reading stats file ./Read1.fasta.k31.stats Thu Dec 15 16:05:40 2016
+Read 54671933 stats and 5228615 pass coverage Thu Dec 15 16:06:17 2016
+# Reading stats file ./Read2.fasta.k31.stats Thu Dec 15 16:06:17 2016
+Read 54671933 stats and 4824282 pass coverage Thu Dec 15 16:06:54 2016
+Stats contain 5228615 and 4824282 accessions Thu Dec 15 16:06:54 2016
+Counted 218687732 and wrote 10858172 lines Thu Dec 15 16:10:26 2016
+Counted 54671933 sequence pairs Thu Dec 15 16:10:26 2016
+Kept 2714543 read pairs Thu Dec 15 16:10:26 2016
+# Process finished Thu Dec 15 16:10:26 2016
+
+s.vargas@wla175:/mnt/localspace/s.vargas/Data/Genomic_Datasets/Collospongia_auris/Metagenome$ python ~/Repos/lavaLampPlot/kmersorter.py -T -p 6 -k 31 -a 50 -b 100 -s 0.5 -w 0.62 -D ~/Repos/lavaLampPlot/trinityrnaseq-2.0.4/ -1 ./Read1.fastq -2 ./Read2.fastq fastq_filtered.dumps 
+### Running Trinity type read sorting Thu Dec 15 16:11:01 2016
+# Using Trinity directory /home/s.vargas/Repos/lavaLampPlot/trinityrnaseq-2.0.4/ Thu Dec 15 16:11:01 2016
+### Checking for sub programs Thu Dec 15 16:11:01 2016
+# /home/s.vargas/Repos/lavaLampPlot/trinityrnaseq-2.0.4/trinity-plugins/fastool/fastool found... OK
+# /home/s.vargas/Repos/lavaLampPlot/trinityrnaseq-2.0.4/Inchworm/bin/fastaToKmerCoverageStats found... OK
+### Checking input files Thu Dec 15 16:11:01 2016
+# Reads found... OK
+# Detected read length of 125... OK
+# Detected seq type fastq... OK
+### Converting reads to fasta Thu Dec 15 16:11:01 2016
+### Converting reads to fasta Thu Dec 15 16:11:01 2016
+# Reads already converted, skipping... Thu Dec 15 16:11:01 2016
+### Converting reads to fasta Thu Dec 15 16:11:01 2016
+# Reads already converted, skipping... Thu Dec 15 16:11:01 2016
+### Generating coverage stats Thu Dec 15 16:11:01 2016
+# Coverage already counted for ./Read1.fasta, skipping... Thu Dec 15 16:11:01 2016
+# Coverage already counted for ./Read2.fasta, skipping... Thu Dec 15 16:11:01 2016
+### Sorting reads by coverage and/or GC Thu Dec 15 16:11:01 2016
+# Filtering coverage between 50 and 100 Thu Dec 15 16:11:01 2016
+# Filtering GC between 63 and 78 Thu Dec 15 16:11:01 2016
+### Retrieving reads Thu Dec 15 16:11:01 2016
+# Reading stats file ./Read1.fasta.k31.stats Thu Dec 15 16:11:01 2016
+Read 54671933 stats and 5182226 pass coverage Thu Dec 15 16:11:39 2016
+# Reading stats file ./Read2.fasta.k31.stats Thu Dec 15 16:11:39 2016
+Read 54671933 stats and 4669318 pass coverage Thu Dec 15 16:12:16 2016
+Stats contain 5182226 and 4669318 accessions Thu Dec 15 16:12:16 2016
+Counted 218687732 and wrote 13343108 lines Thu Dec 15 16:15:49 2016
+Counted 54671933 sequence pairs Thu Dec 15 16:15:49 2016
+Kept 3335777 read pairs Thu Dec 15 16:15:49 2016
+# Process finished Thu Dec 15 16:15:49 2016
+
+s.vargas@wla175:/mnt/localspace/s.vargas/Data/Genomic_Datasets/Collospongia_auris/Metagenome$ python ~/Repos/lavaLampPlot/kmersorter.py -T -p 6 -k 31 -a 150 -b 180 -s 0.62 -w 0.66 -D ~/Repos/lavaLampPlot/trinityrnaseq-2.0.4/ -1 ./Read1.fastq -2 ./Read2.fastq fastq_filtered.dumps 
+### Running Trinity type read sorting Thu Dec 15 16:16:45 2016
+# Using Trinity directory /home/s.vargas/Repos/lavaLampPlot/trinityrnaseq-2.0.4/ Thu Dec 15 16:16:45 2016
+### Checking for sub programs Thu Dec 15 16:16:45 2016
+# /home/s.vargas/Repos/lavaLampPlot/trinityrnaseq-2.0.4/trinity-plugins/fastool/fastool found... OK
+# /home/s.vargas/Repos/lavaLampPlot/trinityrnaseq-2.0.4/Inchworm/bin/fastaToKmerCoverageStats found... OK
+### Checking input files Thu Dec 15 16:16:45 2016
+# Reads found... OK
+# Detected read length of 125... OK
+# Detected seq type fastq... OK
+### Converting reads to fasta Thu Dec 15 16:16:45 2016
+### Converting reads to fasta Thu Dec 15 16:16:45 2016
+# Reads already converted, skipping... Thu Dec 15 16:16:45 2016
+### Converting reads to fasta Thu Dec 15 16:16:45 2016
+# Reads already converted, skipping... Thu Dec 15 16:16:45 2016
+### Generating coverage stats Thu Dec 15 16:16:45 2016
+# Coverage already counted for ./Read1.fasta, skipping... Thu Dec 15 16:16:45 2016
+# Coverage already counted for ./Read2.fasta, skipping... Thu Dec 15 16:16:45 2016
+### Sorting reads by coverage and/or GC Thu Dec 15 16:16:45 2016
+# Filtering coverage between 150 and 180 Thu Dec 15 16:16:45 2016
+# Filtering GC between 78 and 83 Thu Dec 15 16:16:45 2016
+### Retrieving reads Thu Dec 15 16:16:45 2016
+# Reading stats file ./Read1.fasta.k31.stats Thu Dec 15 16:16:45 2016
+Read 54671933 stats and 2724780 pass coverage Thu Dec 15 16:17:20 2016
+# Reading stats file ./Read2.fasta.k31.stats Thu Dec 15 16:17:20 2016
+Read 54671933 stats and 2458425 pass coverage Thu Dec 15 16:17:55 2016
+Stats contain 2724780 and 2458425 accessions Thu Dec 15 16:17:55 2016
+Counted 218687732 and wrote 1558988 lines Thu Dec 15 16:21:13 2016
+Counted 54671933 sequence pairs Thu Dec 15 16:21:13 2016
+Kept 389747 read pairs Thu Dec 15 16:21:13 2016
+# Process finished Thu Dec 15 16:21:13 2016
+
+s.vargas@wla175:/mnt/localspace/s.vargas/Data/Genomic_Datasets/Collospongia_auris/Metagenome$ python ~/Repos/lavaLampPlot/kmersorter.py -T -p 6 -k 31 -a 15 -b 40 -s 0.62 -w 0.66 -D ~/Repos/lavaLampPlot/trinityrnaseq-2.0.4/ -1 ./Read1.fastq -2 ./Read2.fastq fastq_filtered.dumps 
+### Running Trinity type read sorting Thu Dec 15 16:24:00 2016
+# Using Trinity directory /home/s.vargas/Repos/lavaLampPlot/trinityrnaseq-2.0.4/ Thu Dec 15 16:24:00 2016
+### Checking for sub programs Thu Dec 15 16:24:00 2016
+# /home/s.vargas/Repos/lavaLampPlot/trinityrnaseq-2.0.4/trinity-plugins/fastool/fastool found... OK
+# /home/s.vargas/Repos/lavaLampPlot/trinityrnaseq-2.0.4/Inchworm/bin/fastaToKmerCoverageStats found... OK
+### Checking input files Thu Dec 15 16:24:00 2016
+# Reads found... OK
+# Detected read length of 125... OK
+# Detected seq type fastq... OK
+### Converting reads to fasta Thu Dec 15 16:24:00 2016
+### Converting reads to fasta Thu Dec 15 16:24:00 2016
+# Reads already converted, skipping... Thu Dec 15 16:24:00 2016
+### Converting reads to fasta Thu Dec 15 16:24:00 2016
+# Reads already converted, skipping... Thu Dec 15 16:24:00 2016
+### Generating coverage stats Thu Dec 15 16:24:00 2016
+# Coverage already counted for ./Read1.fasta, skipping... Thu Dec 15 16:24:00 2016
+# Coverage already counted for ./Read2.fasta, skipping... Thu Dec 15 16:24:00 2016
+### Sorting reads by coverage and/or GC Thu Dec 15 16:24:00 2016
+# Filtering coverage between 15 and 40 Thu Dec 15 16:24:00 2016
+# Filtering GC between 78 and 83 Thu Dec 15 16:24:00 2016
+### Retrieving reads Thu Dec 15 16:24:00 2016
+# Reading stats file ./Read1.fasta.k31.stats Thu Dec 15 16:24:00 2016
+Read 54671933 stats and 12056356 pass coverage Thu Dec 15 16:24:46 2016
+# Reading stats file ./Read2.fasta.k31.stats Thu Dec 15 16:24:46 2016
+Read 54671933 stats and 10976877 pass coverage Thu Dec 15 16:25:30 2016
+Stats contain 12056356 and 10976877 accessions Thu Dec 15 16:25:30 2016
+Counted 218687732 and wrote 3867116 lines Thu Dec 15 16:28:52 2016
+Counted 54671933 sequence pairs Thu Dec 15 16:28:52 2016
+Kept 966779 read pairs Thu Dec 15 16:28:52 2016
+# Process finished Thu Dec 15 16:28:52 2016
+
+s.vargas@wla175:/mnt/localspace/s.vargas/Data/Genomic_Datasets/Collospongia_auris/Metagenome$ python ~/Repos/lavaLampPlot/kmersorter.py -T -p 6 -k 31 -a 400 -b 600 -s 0.5 -w 0.7 -D ~/Repos/lavaLampPlot/trinityrnaseq-2.0.4/ -1 ./Read1.fastq -2 ./Read2.fastq fastq_filtered.dumps 
+### Running Trinity type read sorting Thu Dec 15 16:33:45 2016
+# Using Trinity directory /home/s.vargas/Repos/lavaLampPlot/trinityrnaseq-2.0.4/ Thu Dec 15 16:33:45 2016
+### Checking for sub programs Thu Dec 15 16:33:45 2016
+# /home/s.vargas/Repos/lavaLampPlot/trinityrnaseq-2.0.4/trinity-plugins/fastool/fastool found... OK
+# /home/s.vargas/Repos/lavaLampPlot/trinityrnaseq-2.0.4/Inchworm/bin/fastaToKmerCoverageStats found... OK
+### Checking input files Thu Dec 15 16:33:45 2016
+# Reads found... OK
+# Detected read length of 125... OK
+# Detected seq type fastq... OK
+### Converting reads to fasta Thu Dec 15 16:33:45 2016
+### Converting reads to fasta Thu Dec 15 16:33:45 2016
+# Reads already converted, skipping... Thu Dec 15 16:33:45 2016
+### Converting reads to fasta Thu Dec 15 16:33:45 2016
+# Reads already converted, skipping... Thu Dec 15 16:33:45 2016
+### Generating coverage stats Thu Dec 15 16:33:45 2016
+# Coverage already counted for ./Read1.fasta, skipping... Thu Dec 15 16:33:45 2016
+# Coverage already counted for ./Read2.fasta, skipping... Thu Dec 15 16:33:45 2016
+### Sorting reads by coverage and/or GC Thu Dec 15 16:33:45 2016
+# Filtering coverage between 400 and 600 Thu Dec 15 16:33:45 2016
+# Filtering GC between 63 and 88 Thu Dec 15 16:33:45 2016
+### Retrieving reads Thu Dec 15 16:33:45 2016
+# Reading stats file ./Read1.fasta.k31.stats Thu Dec 15 16:33:45 2016
+Read 54671933 stats and 4829470 pass coverage Thu Dec 15 16:34:23 2016
+# Reading stats file ./Read2.fasta.k31.stats Thu Dec 15 16:34:23 2016
+Read 54671933 stats and 4339222 pass coverage Thu Dec 15 16:35:00 2016
+Stats contain 4829470 and 4339222 accessions Thu Dec 15 16:35:00 2016
+Counted 218687732 and wrote 21573048 lines Thu Dec 15 16:39:00 2016
+Counted 54671933 sequence pairs Thu Dec 15 16:39:00 2016
+Kept 5393262 read pairs Thu Dec 15 16:39:00 2016
+# Process finished Thu Dec 15 16:39:00 2016
+

@@ -1,0 +1,13 @@
+python /home/s.vargas/Downloads/SPAdes-3.9.0/spades.py -1 k31.a15.b40.s78.w83/Read1.k31.a15.b40.s78.w83.fastq -2 k31.a15.b40.s78.w83/Read2.k31.a15.b40.s78.w83.fastq -k 21,31,41,51,61,71,81,91,101,111,121 -o k31.a15.b40.s78.w83/SPAdes_Assembly
+
+python /home/s.vargas/Downloads/SPAdes-3.9.0/spades.py -1 k31.a50.b100.s63.w78/Read1.k31.a50.b100.s63.w78.fastq -2 k31.a50.b100.s63.w78/Read2.k31.a50.b100.s63.w78.fastq -k 21,31,41,51,61,71,81,91,101,111,121 -o k31.a50.b100.s63.w78/SPAdes_Assembly
+
+python /home/s.vargas/Downloads/SPAdes-3.9.0/spades.py -1 k31.a100.b150.s44.w60/Read1.k31.a100.b150.s44.w60.fastq -2 k31.a100.b150.s44.w60/Read2.k31.a100.b150.s44.w60.fastq -k 21,31,41,51,61,71,81,91,101,111,121 -o k31.a100.b150.s44.w60/SPAdes_Assembly
+
+python /home/s.vargas/Downloads/SPAdes-3.9.0/spades.py -1 k31.a150.b180.s78.w83/Read1.k31.a150.b180.s78.w83.fastq -2 k31.a150.b180.s78.w83/Read2.k31.a150.b180.s78.w83.fastq -k 21,31,41,51,61,71,81,91,101,111,121 -o k31.a150.b180.s78.w83/SPAdes_Assembly
+
+python /home/s.vargas/Downloads/SPAdes-3.9.0/spades.py -1 k31.a180.b200.s60.w75/Read1.k31.a180.b200.s60.w75.fastq -2 k31.a180.b200.s60.w75/Read2.k31.a180.b200.s60.w75.fastq -k 21,31,41,51,61,71,81,91,101,111,121 -o k31.a180.b200.s60.w75/SPAdes_Assembly
+
+python /home/s.vargas/Downloads/SPAdes-3.9.0/spades.py -1 k31.a400.b600.s63.w88/Read1.k31.a400.b600.s63.w88.fastq -2 k31.a400.b600.s63.w88/Read2.k31.a400.b600.s63.w88.fastq -k 21,31,41,51,61,71,81,91,101,111,121 -o k31.a400.b600.s63.w88/SPAdes_Assembly
+
+
