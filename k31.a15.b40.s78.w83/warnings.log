@@ -1,0 +1,15 @@
+
+=== Error correction and assembling warnings:
+ * 0:02:11.061   632M / 9G    WARN    General                 (kmer_coverage_model.cpp   : 382)   Failed to determine erroneous kmer threshold. Threshold set to: 62
+ * 0:02:15.051   124M / 9G    WARN    General                 (simplification.cpp        : 530)   The determined erroneous connection coverage threshold may be determined improperly
+ * 0:01:34.814   616M / 9G    WARN    General                 (kmer_coverage_model.cpp   : 217)   Too many erroneous kmers, the estimates might be unreliable
+ * 0:02:12.222     1G / 9G    WARN    General                 (kmer_coverage_model.cpp   : 343)   Valley value was estimated improperly, reset to 5
+ * 0:02:12.223     1G / 9G    WARN    General                 (kmer_coverage_model.cpp   : 382)   Failed to determine erroneous kmer threshold. Threshold set to: 5
+ * 0:02:06.922     1G / 9G    WARN    General                 (kmer_coverage_model.cpp   : 343)   Valley value was estimated improperly, reset to 16
+ * 0:02:06.923     1G / 9G    WARN    General                 (kmer_coverage_model.cpp   : 382)   Failed to determine erroneous kmer threshold. Threshold set to: 16
+ * 0:02:01.168     1G / 9G    WARN    General                 (kmer_coverage_model.cpp   : 343)   Valley value was estimated improperly, reset to 3
+ * 0:02:01.169     1G / 9G    WARN    General                 (kmer_coverage_model.cpp   : 382)   Failed to determine erroneous kmer threshold. Threshold set to: 3
+ * 0:01:54.440     1G / 9G    WARN    General                 (kmer_coverage_model.cpp   : 343)   Valley value was estimated improperly, reset to 1
+ * 0:01:54.441     1G / 9G    WARN    General                 (kmer_coverage_model.cpp   : 382)   Failed to determine erroneous kmer threshold. Threshold set to: 1
+ * 0:01:31.492     1G / 9G    WARN    General                 (kmer_coverage_model.cpp   : 382)   Failed to determine erroneous kmer threshold. Threshold set to: 8
+======= Warnings saved to /mnt/localspace/s.vargas/Data/Genomic_Datasets/Collospongia_auris/Metagenome/k31.a15.b40.s78.w83/SPAdes_Assembly/warnings.log
