@@ -1,0 +1,35 @@
+Command line: /home/s.vargas/Downloads/SPAdes-3.9.0/spades.py	-1	/mnt/localspace/s.vargas/Data/Genomic_Datasets/Collospongia_auris/Metagenome/k31.a150.b180.s78.w83/Read1.k31.a150.b180.s78.w83.fastq	-2	/mnt/localspace/s.vargas/Data/Genomic_Datasets/Collospongia_auris/Metagenome/k31.a150.b180.s78.w83/Read2.k31.a150.b180.s78.w83.fastq	-k	21,31,41,51,61,71,81,91,101,111,121	-o	/mnt/localspace/s.vargas/Data/Genomic_Datasets/Collospongia_auris/Metagenome/k31.a150.b180.s78.w83/SPAdes_Assembly	
+
+System information:
+  SPAdes version: 3.9.0
+  Python version: 2.7.9
+  OS: Linux-3.16.0-4-amd64-x86_64-with-debian-8.6
+
+Output dir: /mnt/localspace/s.vargas/Data/Genomic_Datasets/Collospongia_auris/Metagenome/k31.a150.b180.s78.w83/SPAdes_Assembly
+Mode: read error correction and assembling
+Debug mode is turned OFF
+
+Dataset parameters:
+  Multi-cell mode (you should set '--sc' flag if input data was obtained with MDA (single-cell) technology or --meta flag if processing metagenomic dataset)
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: ['/mnt/localspace/s.vargas/Data/Genomic_Datasets/Collospongia_auris/Metagenome/k31.a150.b180.s78.w83/Read1.k31.a150.b180.s78.w83.fastq']
+      right reads: ['/mnt/localspace/s.vargas/Data/Genomic_Datasets/Collospongia_auris/Metagenome/k31.a150.b180.s78.w83/Read2.k31.a150.b180.s78.w83.fastq']
+      interlaced reads: not specified
+      single reads: not specified
+Read error correction parameters:
+  Iterations: 1
+  PHRED offset will be auto-detected
+  Corrected reads will be compressed (with gzip)
+Assembly parameters:
+  k: [21, 31, 41, 51, 61, 71, 81, 91, 101, 111, 121]
+  Repeat resolution is enabled
+  Mismatch careful mode is turned OFF
+  MismatchCorrector will be SKIPPED
+  Coverage cutoff is turned OFF
+Other parameters:
+  Dir for temp files: /mnt/localspace/s.vargas/Data/Genomic_Datasets/Collospongia_auris/Metagenome/k31.a150.b180.s78.w83/SPAdes_Assembly/tmp
+  Threads: 16
+  Memory limit (in Gb): 15
+
