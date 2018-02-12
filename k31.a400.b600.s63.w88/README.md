@@ -4,5 +4,8 @@ GAAGAGTTTGATCCTGGCTCAGGATGAACGCTGGCGGCGTGCTTAACACATGCAAGTCGAACGAACCTTCGGGTTAGTGG
 
 Best Match:
 
-Sequence ID: KJ174471.1L | Candidatus Synechococcus spongiarum SH4 16S ribosomal RNA gene, partial sequence
+Sequence ID: KJ174471.1L | Candidatus Synechococcus spongiarum SH4 16S ribosomal RNA gene, partial sequence |
+
+Cyanobacteria | *Carteriospongia foliascens*
+
 
