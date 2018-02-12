@@ -3,6 +3,11 @@ Blasted:
 >PARTIAL_NODE_1619_length_847_cov_0.391185
 TCGTAGTCCGGATTGGAGTCTGCAACTCGACTCCATGAAGCAGGAATCGCTAGTAATCGCGGATCAGAACGCCGCGGTGAATACGTTCCCGGGCCTTGTACACACCGCCCGTCACACCATGGGAGTGGGTTGTACCAGAAGTAGGTAGTCTAACCTCTTTGAGGAGGGCGCTTACCACGGTGTGATTCATGACTAGGGTGAAGTCGTAACAAGGTAGCCCTAGGGGAACCTGGGGCTGGATCACCTCCTT
 
-Matched:
-Sequence ID: AY869584.1 | Uncultured Chromatiales bacterium clone I3K-0176 16S ribosomal RNA gene, partial sequence | Gammaproteobacteria
+Matched (Cover/Identity = 100%/96%):
+Sequence ID: AY869584.1 | Uncultured Chromatiales bacterium clone I3K-0176 16S ribosomal RNA gene, partial sequence | 
+
+?Gammaproteobacteria? | Sea water.
+
+
+Note: sequence is very short: 250bp.
 
